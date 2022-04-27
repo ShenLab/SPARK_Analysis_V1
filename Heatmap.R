@@ -3,6 +3,7 @@
 #
 library(ggtext)
 library(RColorBrewer)
+library(tidyr)
 
 dir.create("Heatmap")
 

@@ -1,7 +1,10 @@
 # Plot estimated selection coefficient for known and other genes 
 # based on mutation rates and curated CAFs from population data
+library(ggplot2)
 library(ggpubr)
 library(ggrepel)
+library(readr)
+library(dplyr)
 # We plot mutation rate agains CAFs to get a sense of s
 
 CAF<-read_tsv("Data/MergeCuratedRaw.txt", na=".") %>% 
